@@ -1,0 +1,29 @@
+.menu .row{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu .row .item-col{
+    /* display:none; */
+    position:relative;
+    left:-1000px;
+    background:green;
+    transition: 0.7s;
+}
+.menu .row .item-col ul{
+    list-style:none;
+    display:inline-flex;
+}
+.menu .row .item-col ul li{
+    margin:0px 15px;
+}
+
+.menu .row .item-col ul li a{
+    text-decoration:none;
+    color:crimson;
+    font-size:20px;
+}
+.active{
+    left:0px !important;
+    transition:0.7s !important;
+}
